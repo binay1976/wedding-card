@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#3b1016" />
+  <meta name="description" content="A royal Rajasthani wedding invitation." />
+  <title>Tanmay & Tanya | A Royal Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+
+  <!-- Opening invitation -->
+  <section class="intro-screen" id="introScreen" aria-label="Open wedding invitation">
+    <div class="intro-sky"></div>
+    <div class="intro-copy">
+      <p class="eyebrow">A ROYAL CELEBRATION OF LOVE</p>
+      <h1>Together<br><em>Forever</em></h1>
+      <p class="intro-subtitle">A new chapter of Dixit's begins</p>
+    </div>
+    <button class="envelope-button" id="openInvitation" aria-label="Open the wedding invitation">
+      <span class="envelope-flap"></span>
+      <span class="envelope-seal">T <i>&</i> T</span>
+      <span class="envelope-ornament">❧</span>
+    </button>
+    <button class="tap-hint" id="tapHint" aria-controls="palaceReveal">
+      <span class="tap-icon">♧</span>
+      <span>Tap to open</span>
+    </button>
+    <p class="intro-bottom">WITH LOVE, DIXIT FAMILIES</p>
+  </section>
+
+  <!-- Cinematic palace-door transition -->
+  <section class="palace-reveal" id="palaceReveal" aria-hidden="true">
+    <div class="palace-backdrop">
+      <div class="palace-glow"></div>
+      <div class="palace-path"></div>
+      <div class="palace-door door-left"><span class="door-carving">✺</span></div>
+      <div class="palace-door door-right"><span class="door-carving">✺</span></div>
+      <div class="welcome-note">
+        <span class="small-gold">YOU ARE CORDIALLY INVITED</span>
+        <h2>Welcome to<br><em>our wedding</em></h2>
+        <span class="ornament">✦ ── ❦ ── ✦</span>
+      </div>
+    </div>
+    <button class="skip-intro" id="skipIntro">Enter invitation ↓</button>
+  </section>
+
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#home" aria-label="Tanmay and Tanya home">T <span>&</span> T</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#home">Home</a>
+      <a href="#couple">The Couple</a>
+      <a href="#events">Celebrations</a>
+      <a href="#families">Families</a>
+      <a href="#venue">Venue</a>
+      <a href="#gallery">Gallery</a>
+      <a class="nav-join" href="#join-us">Join Us</a>
+    </nav>
+  </header>
+
+  <main id="invitationContent">
+    <section class="hero section-shell" id="home">
+      <div class="hero-arch"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow dark">WITH THE BLESSINGS OF OUR FAMILIES</p>
+        <p class="script-line">Two hearts, one beautiful journey</p>
+        <h1 class="couple-names">Tanmay <span>&amp;</span><br>Tanya</h1>
+        <div class="ornament">✦ ───── ❦ ───── ✦</div>
+        <p class="hero-message">Together with our families, we invite you to share in the joy<br class="desktop-only"> of our wedding celebrations.</p>
+        <p class="hero-date">09 FEBRUARY 2027 <span>•</span> JAIPUR, RAJASTHAN</p>
+        <a class="gold-button" href="#events">Explore the celebrations <span>↓</span></a>
+      </div>
+      <div class="hero-image" role="img" aria-label="Romantic palace and lake at sunset"></div>
+      <div class="hero-caption">A celebration woven with tradition, joy &amp; forever.</div>
+    </section>
+
+    <section class="countdown-band">
+      <p class="eyebrow">THE COUNTDOWN TO FOREVER</p>
+      <div class="countdown" id="countdown">
+        <div><strong id="days">00</strong><span>Days</span></div>
+        <div><strong id="hours">00</strong><span>Hours</span></div>
+        <div><strong id="minutes">00</strong><span>Minutes</span></div>
+        <div><strong id="seconds">00</strong><span>Seconds</span></div>
+      </div>
+    </section>
+
+    <section class="section-shell couple-section" id="couple">
+      <div class="section-heading reveal">
+        <p class="eyebrow dark">THE BEGINNING OF ALWAYS</p>
+        <h2>Two souls, one <em>destiny</em></h2>
+        <p>Some stories are written in the stars. Ours brought us here.</p>
+      </div>
+      <div class="couple-grid">
+        <article class="person-card reveal">
+          <div class="portrait portrait-groom" role="img" aria-label="Groom portrait placeholder"></div>
+          <p class="person-label">THE GROOM</p>
+          <h3>Tanmay Dixit</h3>
+          <p>Son of Mr. Vivek Dixit<br>and Mrs. TANVI Dixit</p>
+          <span class="tiny-ornament">❦</span>
+        </article>
+        <div class="ampersand reveal">&amp;</div>
+        <article class="person-card reveal">
+          <div class="portrait portrait-bride" role="img" aria-label="Bride portrait placeholder"></div>
+          <p class="person-label">THE BRIDE</p>
+          <h3>Tanya Dixit</h3>
+          <p>Daughter of Mr. Mahendra Dixit<br>and Mrs. Kavita Dixit</p>
+          <span class="tiny-ornament">❦</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="family-section" id="families">
+      <div class="section-shell family-inner">
+        <div class="section-heading reveal">
+          <p class="eyebrow">TWO FAMILIES, ONE CELEBRATION</p>
+          <h2>With the blessings of<br><em>our loved ones</em></h2>
+        </div>
+        <div class="family-grid">
+          <article class="family-card reveal">
+            <span class="family-icon">♜</span>
+            <h3>The Groom's Family</h3>
+            <p>Mr. Vivek Dixit &amp; Mrs. Tanvi Dixit</p>
+            <p class="muted">Grandparents, relatives and well-wishers</p>
+          </article>
+          <article class="family-card reveal">
+            <span class="family-icon">♜</span>
+            <h3>The Bride's Family</h3>
+            <p>Mr. Mahendra Dixit &amp; Mrs. Kavita Dixit</p>
+            <p class="muted">Grandparents, relatives and well-wishers</p>
+          </article>
+        </div>
+        <p class="family-blessing">Your presence will make our celebration complete.</p>
+      </div>
+    </section>
+
+    <section class="section-shell events-section" id="events">
+      <div class="section-heading reveal">
+        <p class="eyebrow dark">SAVE THE DATES</p>
+        <h2>Wedding <em>festivities</em></h2>
+        <p>Every ritual, every laugh, every moment — cherished together.</p>
+      </div>
+      <div class="event-timeline">
+        <article class="event-card reveal">
+          <div class="event-number">01</div><div class="event-thumb mehendi" role="img" aria-label="Mehendi celebration"></div>
+          <div class="event-info"><span class="event-date">09 FEBRUARY 2027 · 4:00 PM</span><h3>Mehendi</h3><p>A little colour, a little music, and a lifetime of memories.</p><span class="event-place">The Royal Lawns · Jaipur</span></div>
+        </article>
+        <article class="event-card reveal">
+          <div class="event-number">02</div><div class="event-thumb sangeet" role="img" aria-label="Sangeet celebration"></div>
+          <div class="event-info"><span class="event-date">09 FEBRUARY 2027 · 7:30 PM</span><h3>Sangeet</h3><p>An evening of music, dance and family performances.</p><span class="event-place">Royal Banquet Hall · Jaipur</span></div>
+        </article>
+        <article class="event-card reveal">
+          <div class="event-number">03</div><div class="event-thumb haldi" role="img" aria-label="Haldi ceremony"></div>
+          <div class="event-info"><span class="event-date">10 FEBRUARY 2027 · 10:00 AM</span><h3>Haldi</h3><p>Sunshine, marigolds and blessings for the couple.</p><span class="event-place">Sunset Terrace · Jaipur</span></div>
+        </article>
+        <article class="event-card reveal">
+          <div class="event-number">04</div><div class="event-thumb wedding" role="img" aria-label="Wedding mandap"></div>
+          <div class="event-info"><span class="event-date">10 FEBRUARY 2027 · 7:00 PM</span><h3>The Wedding Ceremony</h3><p>As we take our sacred vows and begin forever.</p><span class="event-place">The Grand Courtyard · Jaipur</span></div>
+        </article>
+        <article class="event-card reveal">
+          <div class="event-number">05</div><div class="event-thumb reception" role="img" aria-label="Wedding reception"></div>
+          <div class="event-info"><span class="event-date">10 FEBRUARY 2027 · 7:00 PM</span><h3>Reception</h3><p>An elegant evening to celebrate our new beginning.</p><span class="event-place">Lakeview Banquet · Jaipur</span></div>
+        </article>
+      </div>
+      <!-- <p class="details-note">* Names, dates, times and venues shown here are sample details. Please replace them with your actual arrangements.</p> -->
+    </section>
+
+    <section class="venue-section" id="venue">
+      <div class="section-shell venue-layout">
+        <div class="venue-photo reveal" role="img" aria-label="R C Chandra Palace, Jaipur"></div>
+        <div class="venue-copy reveal">
+          <p class="eyebrow">A ROYAL SETTING</p>
+          <h2>Meet us in <em>Jaipur</em></h2>
+          <h3>R C Chandra Palace, Jaipur</h3>
+          <p>NH 52,CHOMU BY-PASS,JAIPUR-Sikar Rd<br>Chomu, Rajasthan 303702</p>
+          
+          <p class="venue-description">Come celebrate with us in the timeless beauty of Rajasthan, where lakes shimmer and palaces glow beneath the evening sky.</p>
+          <a class="gold-button" href="https://maps.app.goo.gl/AqMtXvVS9FSXZDUV8" target="_blank" rel="noopener">⌖ &nbsp; View on Google Maps</a>
+          <div class="travel-grid">
+            <div><span>✈</span><strong>By Air</strong><small>Maharana Pratap Airport</small></div>
+            <div><span>🚆</span><strong>By Train</strong><small>Jaipur City Station</small></div>
+            <div><span>♧</span><strong>By Road</strong><small>Well connected by road</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell gallery-section" id="gallery">
+      <div class="section-heading reveal">
+        <p class="eyebrow dark">LITTLE GLIMPSES OF LOVE</p>
+        <h2>Our <em>moments</em></h2>
+        <p>A few frames from the story we're writing together.</p>
+      </div>
+      <div class="gallery-grid">
+        <button class="gallery-item gallery-one reveal" data-caption="A moment to treasure" aria-label="Open photo: A moment to treasure"></button>
+        <button class="gallery-item gallery-two reveal" data-caption="A royal evening" aria-label="Open photo: A royal evening"></button>
+        <button class="gallery-item gallery-three reveal" data-caption="The little details" aria-label="Open photo: The little details"></button>
+        <button class="gallery-item gallery-four reveal" data-caption="Together, always" aria-label="Open photo: Together, always"></button>
+        <button class="gallery-item gallery-five reveal" data-caption="A celebration of love" aria-label="Open photo: A celebration of love"></button>
+      </div>
+      <!-- <p class="details-note">Replace the sample gallery photos with your own pre-wedding or family pictures.</p> -->
+    </section>
+
+    <section class="join-section" id="join-us">
+      <div class="join-card reveal">
+        <p class="eyebrow">YOUR PRESENCE IS OUR PRESENT</p>
+        <h2>Will you join <em>us?</em></h2>
+        <p>We can’t wait to celebrate with you. Send us a message on WhatsApp to let us know you’ll be joining us!</p>
+        <a class="gold-button" href="https://wa.me/917700938462?text=Hello%20Tanmay%20and%20Tanya!%20I%E2%80%99m%20excited%20to%20join%20your%20wedding%20celebrations%20in%20Jaipur%20on%2009%20February%202027.%20Looking%20forward%20to%20celebrating%20with%20you!" target="_blank" rel="noopener">✧ &nbsp; Join us on WhatsApp</a>
+      </div>
+      <div class="closing-line"><p class="script-line">We can't wait to celebrate with you</p><h2>See you in <em>Jaipur!</em></h2><div class="ornament">✦ ── ❦ ── ✦</div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-monogram">Tanmay <span>&amp;</span> Tanya</p>
+    <p>Made with love, for a day to remember.</p>
+    <p class="footer-date">09 — 10 FEBRUARY 2027 · JAIPUR, RAJASTHAN</p>
+    <a href="#home" class="back-top">Back to top ↑</a>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Gallery photo" hidden>
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close photo">×</button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous photo">‹</button>
+    <div class="lightbox-photo" id="lightboxPhoto"></div>
+    <p id="lightboxCaption"></p>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Next photo">›</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
