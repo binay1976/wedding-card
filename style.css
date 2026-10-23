@@ -132,9 +132,9 @@ button { cursor: pointer; }
 .event-info p { margin: .2rem 0 .5rem; color: #80675b; font: 400 .95rem var(--serif); }
 .event-place { font-size: .7rem; color: #8e3b3b; }
 .details-note { text-align: center; margin: 2rem auto 0; color: #987e6a; font-size: .7rem; line-height: 1.6; max-width: 700px; }
-.venue-section { padding: 5rem 0; background: #ead7b8; }
+.-section { padding: 5rem 0; background: #ead7b8; }
 .venue-layout { display: grid; grid-template-columns: 1.05fr 1fr; align-items: center; gap: clamp(2rem, 5vw, 5rem); }
-.venue-photo { min-height: 500px; background: url("https://lh3.googleusercontent.com/d/13av7d8H4tIUWWaQ3sXK5LKmJYNEnAn9x") center/cover; border: 10px solid #fff4e1; outline: 1px solid #b78d4b; outline-offset: -5px; box-shadow: 0 18px 45px #4a1b2020; }
+.venue-photo { min-height: 500px; background: url("https://lh3.googleusercontent.com/d/1ugLQFSVB2HfhMZULtJrH4K32gJp4MvjW") center/cover; border: 10px solid #fff4e1; outline: 1px solid #b78d4b; outline-offset: -5px; box-shadow: 0 18px 45px #4a1b2020; }
 .venue-copy h2 { margin-bottom: 1.2rem; }
 .venue-copy h3 { font: 600 1.7rem var(--serif); color: #6a2029; }
 .venue-copy > p:not(.eyebrow) { font: 400 1rem/1.7 var(--serif); }
